@@ -16,8 +16,7 @@ html,body{
 
 .row{
     display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: row; 
     flex-shrink: 1; 
 }
 .col-12{
