@@ -7,6 +7,7 @@ html,body{
     max-height: 100%; 
     margin:0;
     padding:0;
+    background-color:black;
 }
 .container{
     width: 100%;
@@ -26,7 +27,7 @@ html,body{
     width: 66.66667%;  
 }
 .col-6{
-    width: 50%;   
+    width: 30%;   
 }
 .col-4{
     width: 33.33333%; 
@@ -37,10 +38,13 @@ html,body{
 .col-1{
     width:8.33333%;
 }
+.col-auto{ 
+    min-height: calc(100vh/6);
+    min-width: calc(100vw/7); 
+}
 .col-12,.col-8,.col-6,.col-4,.col-2,.col-1
 {
-    min-height: calc(100vh/6);
-    min-width: calc(100%/7); 
+    min-height:20px;
 } 
 @media only screen and (min-width: 600px) and (max-width:900px){
     .red-md{
@@ -50,6 +54,18 @@ html,body{
     .black-md{
         background-color: #000000;
         color: white;
+    }
+    .r-tr-md{
+        border-top-right-radius:30%;
+    }
+    .r-br-md{
+        border-bottom-right-radius:30%;
+    }
+    .r-tl-md{
+        border-top-left-radius:30%;
+    }
+    .r-bl-md{
+        border-bottom-left-radius:30%;
     }
 } 
 @media only screen and (max-width: 600px){
@@ -61,6 +77,18 @@ html,body{
         background-color: #000000;
         color: white;
     }
+    .r-tr-sm{
+        border-top-right-radius:30%;
+    }
+    .r-br-sm{
+        border-bottom-right-radius:30%;
+    }
+    .r-tl-sm{
+        border-top-left-radius:30%;
+    }
+    .r-bl-sm{
+        border-bottom-left-radius:30%;
+    }
 }
 @media only screen and (min-width:900px){
     .red-lg{
@@ -70,5 +98,17 @@ html,body{
     .black-lg{
         background-color: #000000;
         color: white;
+    }
+    .r-tr-lg{
+        border-top-right-radius:30%;
+    }
+    .r-br-lg{
+        border-bottom-right-radius:30%;
+    }
+    .r-tl-lg{
+        border-top-left-radius:30%;
+    }
+    .r-bl-lg{
+        border-bottom-left-radius:30%;
     }
 }
