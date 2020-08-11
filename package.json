@@ -4,7 +4,7 @@
   "description": "This is just a gift for someone. don't pay much attention. i'm also practicing css",
   "main": "index.js",
   "scripts": {
-    "test": "lite-server index.js",
+    "test": "nodemon index.js",
     "start": "node index.js"
   },
   "repository": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/lapron3000/CSSPractice#readme",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "nodemon": "^2.0.4"
   },
   "dependencies": {
     "express": "^4.17.1",
