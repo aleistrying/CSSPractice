@@ -1,0 +1,33 @@
+{
+  "name": "csspractice",
+  "version": "1.0.0",
+  "description": "This is just a gift for someone. don't pay much attention. i'm also practicing css",
+  "main": "index.js",
+  "scripts": {
+    "test": "lite-server index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lapron3000/CSSPractice.git"
+  },
+  "keywords": [
+    "gift",
+    "practice",
+    "css",
+    "<3"
+  ],
+  "author": "APG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lapron3000/CSSPractice/issues"
+  },
+  "homepage": "https://github.com/lapron3000/CSSPractice#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
