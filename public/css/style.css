@@ -45,7 +45,7 @@ html,body{
 {
     min-height:20px;
 } 
-@media only screen and (min-width: 600px) and (max-width:900px){
+@media only screen and (min-width: 500px) and (max-width:900px){
     .red-md{
         background-color:rgb(173, 9, 9);
         color:white;
@@ -67,7 +67,7 @@ html,body{
         border-bottom-left-radius:30%;
     }
 } 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 500px){
     .red-sm{
         background-color:rgb(173, 9, 9);
         color:white;
